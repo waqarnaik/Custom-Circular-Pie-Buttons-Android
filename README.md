@@ -1,2 +1,5 @@
 # Custom-Circular-Pie-Buttons-Android
-This Repo shows you, How to implement pie buttons in circle with just using layouts in xml
+
+<b>Example Demo Screenshots</b><br /><br />
+<img src="Demo Image/2.png" alt="Splash Screen" width="200" height="350">&nbsp;&nbsp;&nbsp;
+<img src="Demo Image/1.jpg" alt="Home Screen" width="200" height="350">
