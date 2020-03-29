@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="DashBoard"
+        android:layout_centerHorizontal="true"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/background_dark"/>
+
+    <RelativeLayout
+        android:layout_centerInParent="true"
+        android:layout_width="300dp"
+        android:layout_height="300dp">
+
+        <!--Top_Left_Btn-->
+        <LinearLayout
+            android:onClick="OnClickAndroid"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:paddingStart="15dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:background="@drawable/ic_top_left">
+
+            <ImageView
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_marginTop="32dp"
+                android:layout_marginBottom="10dp"
+                android:src="@drawable/ic_android"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"
+                android:text="Android"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+
+        <!--Top_Right_Btn-->
+        <LinearLayout
+            android:onClick="OnClickRide"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_alignParentEnd="true"
+            android:paddingEnd="15dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:background="@drawable/ic_top_right">
+
+
+            <ImageView
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_marginTop="32dp"
+                android:layout_marginBottom="10dp"
+                android:src="@drawable/ic_ride"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textColor="@android:color/white"
+                android:text="Ride"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+
+        <!--Bottom_Left_Btn-->
+        <LinearLayout
+            android:onClick="OnClickBugs"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_alignParentBottom="true"
+            android:paddingStart="15dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:background="@drawable/ic_bott_left">
+
+            <ImageView
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:src="@drawable/ic_bug"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="32dp"
+                android:textSize="18sp"
+                android:text="Bugs"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+
+        <!--Bottm_Right_Btn-->
+        <LinearLayout
+            android:onClick="OnClickFitness"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:paddingEnd="15dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:background="@drawable/ic_bott_right">
+
+            <ImageView
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:src="@drawable/ic_fitness"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="32dp"
+                android:textSize="18sp"
+                android:text="Fitness"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
